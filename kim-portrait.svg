@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 880" width="720" height="880" role="img" aria-label="Portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#8A3644"/>
+      <stop offset="0.55" stop-color="#6E2833"/>
+      <stop offset="1" stop-color="#511F28"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.28" r="0.7">
+      <stop offset="0" stop-color="#C6A15B" stop-opacity="0.42"/>
+      <stop offset="0.5" stop-color="#C6A15B" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#C6A15B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="figure" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBF3E4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FBF3E4" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="880" fill="url(#bg)"/>
+  <rect width="720" height="880" fill="url(#glow)"/>
+
+  <!-- decorative laurels -->
+  <g stroke="#C6A15B" stroke-width="1.4" fill="none" opacity="0.45" stroke-linecap="round">
+    <path d="M96 118 q40 26 44 78 M96 118 q26 6 40 30 M96 118 q6 26 18 52"/>
+    <path d="M624 118 q-40 26 -44 78 M624 118 q-26 6 -40 30 M624 118 q-6 26 -18 52"/>
+  </g>
+
+  <!-- bust silhouette -->
+  <g>
+    <circle cx="360" cy="336" r="118" fill="url(#figure)" stroke="#E7D6AF" stroke-width="1.5" stroke-opacity="0.55"/>
+    <path d="M175 760 C175 596 260 496 360 496 C460 496 545 596 545 760 Z"
+          fill="url(#figure)" stroke="#E7D6AF" stroke-width="1.5" stroke-opacity="0.55"/>
+  </g>
+
+  <!-- thin inner frame -->
+  <rect x="18" y="18" width="684" height="844" rx="16" fill="none" stroke="#E7D6AF" stroke-width="1.2" stroke-opacity="0.35"/>
+
+  <!-- monogram -->
+  <text x="360" y="820" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="6" fill="#F3E6C7" opacity="0.85">KIM&#160;BRADY</text>
+</svg>

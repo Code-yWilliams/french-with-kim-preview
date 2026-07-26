@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 760" width="640" height="760" role="img" aria-label="Portrait placeholder">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#F7EFE0"/>
+      <stop offset="1" stop-color="#EBDDC6"/>
+    </linearGradient>
+    <radialGradient id="aglow" cx="0.5" cy="0.3" r="0.75">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="afig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7A2E3A" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#7A2E3A" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="760" fill="url(#abg)"/>
+  <rect width="640" height="760" fill="url(#aglow)"/>
+
+  <g stroke="#C6A15B" stroke-width="1.4" fill="none" opacity="0.6" stroke-linecap="round">
+    <path d="M86 104 q36 22 40 68 M86 104 q24 6 36 26 M86 104 q6 22 16 46"/>
+    <path d="M554 104 q-36 22 -40 68 M554 104 q-24 6 -36 26 M554 104 q-6 22 -16 46"/>
+  </g>
+
+  <g>
+    <circle cx="320" cy="292" r="104" fill="url(#afig)" stroke="#7A2E3A" stroke-width="1.5" stroke-opacity="0.4"/>
+    <path d="M150 660 C150 512 226 424 320 424 C414 424 490 512 490 660 Z"
+          fill="url(#afig)" stroke="#7A2E3A" stroke-width="1.5" stroke-opacity="0.4"/>
+  </g>
+
+  <rect x="16" y="16" width="608" height="728" rx="14" fill="none" stroke="#C6A15B" stroke-width="1.2" stroke-opacity="0.55"/>
+  <text x="320" y="712" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" letter-spacing="5" fill="#7A2E3A" opacity="0.8">KIM&#160;BRADY</text>
+</svg>
